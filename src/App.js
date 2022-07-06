@@ -5,17 +5,19 @@ import './App.scss';
 
 const App = () => {
   return (
+    <>
+    <Navbar/>
+    <Hero/>
     <div className='App__container'>
-
-       <Navbar/>
-       <Hero/>
+       
        <Features/>
        <Choose/>
        <Management/>
        <Form/>
        <Footer/>
-
     </div> 
+    </>
+    
   );
 }
 

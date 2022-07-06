@@ -1,13 +1,14 @@
 .App__container{
     width: 100%;
     min-height: 100vh;
-    padding: 50px;
+    padding-left: 4.0625rem;
+    padding-right: 4.0625rem;
 }
 ul{
 font-family: var(--font-base);
-font-size: var(--font-size);
+font-size: var(--font-size-small);
 font-weight: var(--font-weight-light);
-color: var(--Dark-grayish-blue);
+color: var(--Black);
 }
 li{
     text-decoration: none;
@@ -19,26 +20,3 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
-
-h5{
-    font-family: var(--font-base);
-    font-size: var(--font-size);
-    font-weight: var(--font-weight-light);
-    color: var(--primary-color);
-}
-h3{
-    font-family: var(--font-base);
-    font-size: var(--font-size);
-    font-weight: var(--font-weight-heavy);
-    color: var(--Dark-grayish-blue);  
-}
-p{
-    font-family: var(--font-base);
-    font-size: var(--font-size);
-    font-weight: var(--font-weight-light);
-    color: var(--Dark-grayish-blue);  
-}
-.border__radius{
-    border-radius: 8px;
-}
-

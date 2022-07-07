@@ -91,3 +91,18 @@ width: 100%;
 
 }
 }
+.companies{
+    flex-direction: column;
+    font-size:15px;
+    font-family: var(--font-base-alef);
+    font-weight: 700;
+    text-align: center;
+    color: var(--Black);
+
+    .small-image{
+        padding: 6px;
+        margin: 6px 5px;
+        cursor: pointer;
+    }
+
+}

@@ -20,6 +20,7 @@ import Oracle from '../assets/Oracle.png';
 import paymentsRecived from '../assets/paymentsRecived.svg';
 import pronet from '../assets/pronet.png';
 import segement from '../assets/segement.png';
+import sumsung from '../assets/sumsung.png';
 
 export default {
     DedicatedTeam ,
@@ -44,5 +45,6 @@ export default {
     paymentsRecived,
     pronet,
     segement,
+    sumsung,
 };
 

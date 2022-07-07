@@ -6,10 +6,10 @@ import EllipseDarkBlue from '../assets/EllipseDarkBlue.svg';
 import EllipseOrange from '../assets/EllipseOrange.svg';
 import FolderIcon from  '../assets/FolderIcon.svg';
 import heroImage from '../assets/heroImage.svg';
-import IllustarationOne from  '../assets/IllustarationOne.png';
+import upwork from  '../assets/upwork.png';
 
-import IllustrationT from  '../assets/IllustrationT.svg';
-import IllustrationTwo from '../assets/IllustrationTwo.png';
+import toptal from  '../assets/toptal.svg';
+import freelencer from '../assets/freelencer.png';
 import logo from  '../assets/logo.png';
 import monday from '../assets/monday.png';
 import morphesus from '../assets/morphesus.png';
@@ -30,10 +30,10 @@ export default {
     EllipseOrange ,
     FolderIcon,
     heroImage,
-    IllustarationOne,
+    upwork,
 
-    IllustrationT,
-    IllustrationTwo,
+    toptal,
+    freelencer,
     logo,
     monday,
     morphesus,

@@ -1,11 +1,13 @@
 .app__navbar{
     width: 100%;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     padding: 1.5625rem 7.125rem 0px 7.25rem;
     backdrop-filter: blur(1.5px);
     -webkit-backdrop-filter: blur(1.5px);
-    //position: fixed;
+    position: fixed;
   z-index: 2;
 
     .logo{

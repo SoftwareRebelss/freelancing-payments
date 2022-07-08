@@ -66,4 +66,95 @@
               }
             }
         }
+       .choose-us-second-section{
+        
+        display: flex;
+        width: 100%;
+        margin-top: 120px;
+        justify-content: center;
+        justify-items: center;
+        
+      
+      
+        .transfers{
+          justify-content: flex-start;
+          width:400px;
+          height: 280px;
+          margin-right: 85px;
+          
+
+          img{
+            width: 100%;
+           
+          }
+          div{
+            z-index: 2;
+            margin-top: -198px;
+            margin-left: 114px;
+            
+            input{
+              border: none;
+              background: #E8F2FF;
+              padding: 5px;
+              &:focus{
+                outline: none;
+              }
+            }
+            button{
+              border: none;
+              background:#00E1F0;
+              padding: 5px;
+              color:var(--White);
+            }
+          }
+        }
+        
+        .crypto-portfolio{
+          width:400px;
+          height: 280px;
+          justify-content: flex-end;
+          justify-items: end;
+          text-align: left;
+          margin-left: 50px;
+
+         .choose-second{
+          font-family:var(--font-base-alef);
+          font-weight: 800;
+          font-size: 15px;
+          color: var(--text-header);
+          margin-bottom: 6px;
+
+         } 
+          .h-text-second{
+            font-family:var(--font-base-Manrope);
+            font-weight: 800;
+            font-size: 15px;
+            color: var(--Black);
+
+            p{
+              font-family:var(--font-base-Manrope);
+              font-weight: 500;
+              color:#757095;
+              margin-top: 10px;
+            }
+            img{
+              width: 400px;
+            }
+            .list-items{
+             flex-direction: column;
+             span{
+              display: flex;
+              align-items: center;
+              
+              img{
+                width: 6%;
+                height: 6%;
+                margin-right: 5px;
+                align-items: center;
+              }
+             }
+            }
+          }
+        }
+       } 
     }

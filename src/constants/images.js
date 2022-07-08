@@ -3,7 +3,7 @@ import digitalService from '../assets/digitalService.png';
 import EllipseBlue from '../assets/EllipseBlue.png';
 
 import EllipseDarkBlue from '../assets/EllipseDarkBlue.svg';
-import EllipseOrange from '../assets/EllipseOrange.svg';
+import quicktransfer from '../assets/quicktransfer.png';
 import FolderIcon from  '../assets/FolderIcon.svg';
 import heroImage from '../assets/heroImage.svg';
 import upwork from  '../assets/upwork.png';
@@ -20,10 +20,16 @@ import Oracle from '../assets/Oracle.png';
 import paymentsRecived from '../assets/paymentsRecived.svg';
 import pronet from '../assets/pronet.png';
 import segement from '../assets/segement.png';
+
 import sumsung from '../assets/sumsung.png';
 import modern from '../assets/modern.png';
 import extra from '../assets/extra.png';
 import secure from '../assets/secure.png';
+
+import dots from '../assets/VectorDots.svg';
+import vectorLine from '../assets/vectorLine.svg';
+import Line from '../assets/line.png';
+import tick from '../assets/tick.png';
 
 export default {
     DedicatedTeam ,
@@ -31,7 +37,7 @@ export default {
     EllipseBlue,
   
     EllipseDarkBlue,
-    EllipseOrange ,
+    quicktransfer ,
     FolderIcon,
     heroImage,
     upwork,
@@ -48,9 +54,15 @@ export default {
     paymentsRecived,
     pronet,
     segement,
+
     sumsung,
     modern,
     extra,
     secure,
+
+    dots,
+    vectorLine,
+    Line,
+    tick,
 };
 

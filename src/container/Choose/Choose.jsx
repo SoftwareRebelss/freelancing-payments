@@ -38,6 +38,52 @@ const Choose = () => {
     <p className='small-p-ext'>End-to-end payments and financial management in a single solution. Meet the right platform.</p>
   </div>
  </div>
+
+<div className="choose-us-second-section">
+
+<div className="transfers">
+
+<img src={images.quicktransfer} alt="" />
+<div>
+<input type="text" />
+<button>Send</button>
+</div>
+
+  </div>
+  
+
+  <div className="crypto-portfolio">
+  <h4 className='choose-second' >Why Choose Us</h4>
+
+  <div className='h-text-second'>
+ <h2>Track your crytpo
+portfolio on the
+best way possible</h2>
+
+<p>End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+
+<img src={images.Line} alt="line-logo" />
+<div className="list-items">
+<span>
+  <img src={images.tick} alt="" />
+  <p>Get Overview at a glance</p>
+</span>
+<span>
+  <img src={images.tick} alt="" />
+  <p>Deoposit funds easily, securlity</p>
+</span>
+<span>
+  <img src={images.tick} alt="" />
+  <p>Get Overview at a glance</p>
+</span>
+</div>
+ </div>
+  </div>
+
+    
+    </div>
+
+
     </div>
   );
 }

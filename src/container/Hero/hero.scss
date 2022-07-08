@@ -40,10 +40,10 @@ width: 100%;
      .p-text{
         margin-top:1rem;
         
-        font-weight:var(--font-weight-thin);
+        font-weight:500;
         font-size: 14px;
         text-align: center;
-        font-family: var(--font-base);
+        font-family: var(--font-base-Manrope);
         font-weight: var(--font-weight-medium);
         color:#64607D;
      }
@@ -103,6 +103,7 @@ width: 100%;
         padding: 6px;
         margin: 6px 5px;
         cursor: pointer;
+        
     }
 
 }

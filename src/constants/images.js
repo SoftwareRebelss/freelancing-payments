@@ -21,6 +21,9 @@ import paymentsRecived from '../assets/paymentsRecived.svg';
 import pronet from '../assets/pronet.png';
 import segement from '../assets/segement.png';
 import sumsung from '../assets/sumsung.png';
+import modern from '../assets/modern.png';
+import extra from '../assets/extra.png';
+import secure from '../assets/secure.png';
 
 export default {
     DedicatedTeam ,
@@ -46,5 +49,8 @@ export default {
     pronet,
     segement,
     sumsung,
+    modern,
+    extra,
+    secure,
 };
 

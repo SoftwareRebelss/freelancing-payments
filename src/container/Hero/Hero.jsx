@@ -51,7 +51,7 @@ backgroundRepeat: 'no-repeat'
     Over 32k+ software businesses growing with Ar Shakir.
     </p>
     <div className='comapny-images'>
-    {productImages.map((itemImage , CurrentIndex) => ( /*updating the useState from [0] to current Index*/ 
+    {productImages.map((itemImage ) => ( 
       <img className='small-image' src={itemImage} alt="small-images"
       
       />

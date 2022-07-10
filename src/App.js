@@ -10,8 +10,9 @@ const App = () => {
     <Hero/>
     <div className='App__container'>
        
-       <Features/>
+      
        <Choose/>
+       <Features/>
        <Management/>
        <Form/>
        <Footer/>

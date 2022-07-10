@@ -82,6 +82,55 @@ best way possible</h2>
 
     
     </div>
+<div className='choose-us-third-section'>
+
+<div className="choose-us-flex-one">
+<h4 className='choose-third' >Why Choose Us</h4>
+<div className='h-text-third'>
+<h2>Track your crytpo
+portfolio on the
+best way possible</h2>
+</div>
+
+
+<p>End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+<span>
+  
+  <h2>First Working Process</h2>
+  <div>
+  <img className='img-one-b' src={images.workingprocess} alt="logo" />
+  <p>End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+  </div>
+</span>
+
+<span>
+ 
+  <h2>First Working Process</h2>
+  <div>
+  <img className='img-two-b' src={images.team} alt="logo" />
+  <p>End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+  </div>
+ 
+</span>
+
+<span>
+  
+  <h2>First Working Process</h2>
+  <div>
+  <img className='img-t-b' src={images.support} alt="logo" />
+  <p>End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+  </div>
+</span>
+  </div>
+  <div className='choose-us-flex-two'>
+
+<img src={images.digitalService} alt="digitalService" />
+
+
+  </div>
+
+</div>
+
 
 
     </div>

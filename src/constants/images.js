@@ -31,6 +31,10 @@ import vectorLine from '../assets/vectorLine.svg';
 import Line from '../assets/line.png';
 import tick from '../assets/tick.png';
 
+import workingprocess from '../assets/workingprocess.png';
+import team from '../assets/team.png';
+import support from '../assets/support.png';
+
 export default {
     DedicatedTeam ,
     digitalService,
@@ -64,5 +68,9 @@ export default {
     vectorLine,
     Line,
     tick,
+
+    workingprocess,
+    team,
+    support,
 };
 

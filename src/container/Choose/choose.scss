@@ -21,7 +21,31 @@
     background:#D3FCFF;
     margin: -30px 50px;
     border-bottom-right-radius:15px;
-  }     
+  }    
+  
+  .img-one-b{
+    padding:8px;
+    background:#FF7F5C;
+    border-radius: 100%;
+    margin-right: 10px;
+   
+  }      
+  .img-two-b{
+    padding:8px;
+    background:#3734A9;
+    border-radius: 100%;
+    margin-right: 10px;
+  }   
+  .img-t-b{
+    padding:8px;
+    background:#00E1F0;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+
+
+
+
   margin-top:70px;
      .choose-finacy{
         font-size:15px;
@@ -157,4 +181,69 @@
           }
         }
        } 
+
+       .choose-us-third-section{
+        display: flex;
+        width: 100%;
+        margin-top: 90px;
+        justify-content: center;
+
+        .choose-us-flex-one{
+          width:400px;
+          height: 280px;
+          margin-right: 20px;
+
+          .choose-third{
+            font-family:var(--font-base-alef);
+            font-weight: 800;
+            font-size: 15px;
+            color: var(--text-header);
+            margin-bottom: 6px;
+          }
+          .h-text-third{
+
+            font-family:var(--font-base-Manrope);
+            font-weight: 800;
+            font-size: 15px;
+            color: var(--Black);
+          }
+          p{
+            font-family:var(--font-base-Manrope);
+            font-weight: 500;
+            color:#757095;
+            margin-top: 10px;
+            font-size: 12px;
+          }
+          span{
+           
+           h2{
+            font-family:var(--font-base-Manrope);
+            font-weight: 800;
+            font-size: 14px;
+            color: var(--Black);
+            margin-top: 10px;
+            margin-bottom: 10px;
+           }
+           div{
+            display: flex;
+            align-items: center;
+            img{
+              width: 40px;
+              height: 40px;
+            }
+           }
+            
+
+          }
+
+        }
+        .choose-us-flex-two{
+       
+        width:450px;
+        height: 290px;
+        img{
+          width: 100%;
+        }
+        }
+       }
     }

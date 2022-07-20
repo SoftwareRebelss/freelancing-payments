@@ -38,6 +38,25 @@ const Features = () => {
     </div>
 
    </div>
+
+   <div className="feature-payments-section">
+    <div className="feature-image">
+    <img src={images.features} alt="digitalService" />
+    </div>
+
+<div className="feature-text">
+
+<div className='choose-finacy'>
+  <h4 >Our Feature</h4>
+ </div>
+ <div className='h-text-finance'>
+ <h2>Receive payments <br></br>quickly from anywhere</h2>
+ </div>
+ <p>Why kept very ever home mrs. Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to. </p>
+
+ <button>Get Started</button>
+</div>
+   </div>
 </div>
 
     

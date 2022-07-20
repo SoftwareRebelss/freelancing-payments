@@ -1,20 +1,126 @@
 .app__navbar{
+
+.mobile-menu{
+
+  div{
+    padding: 20px;
+    position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    z-index: 5;
+    width:95%;
+    height: 100vh;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: rgba(250, 247, 247, 0.6);
+    backdrop-filter:blur(15px);
+    -webkit-backdrop-filter:blur(15px);
+    @media only screen and (max-width: 813px) {
+      width: 100%;
+    }
+
+    box-shadow: 0 0 20px rgba(168, 168, 168 , 0.15);
+
+    .menu-close{
+      @media screen and (max-width:813px){
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: white;
+        border-radius: 15%;
+        padding: 6px;
+        font-size: 30px;
+        font-weight: 700;
+        position: absolute;
+        background-color: var(--primary-color);
+      }
+     }
+
+    ul{
+     list-style: none;
+     margin-top: 60px;
+     li{
+      margin: 1rem;
+     
+      a{
+        color: var(--primary-color);
+       font-family: var(--font-base-Manrope);
+       
+       }
+     }
+    }
+    }
+
+
+  @media only screen and (min-width: 800px) {
+    display: none;
+  }
+  .toggleIcon{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  border-radius: 15%;
+ padding: 6px;
+ font-size: 30px;
+ font-weight: 700;
+  position: absolute;
+  background-color: var(--primary-color);
+   
+  
+  }
+}
+
+
+
+
     width: 100%;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
     padding: 1.5625rem 7.125rem 0px 7.25rem;
-    backdrop-filter: blur(1.5px);
-    -webkit-backdrop-filter: blur(1.5px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     position: fixed;
-  z-index: 2;
+    z-index: 2;
+    @media only screen and (max-width: 813px) {
+      padding: 20px;
+      
+
+    }
 
     .logo{
         display: flex;
         justify-content: flex-start;
         align-items: center;
         cursor: pointer;
+        @media only screen and (max-width: 813px) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 50px;
+          cursor: pointer;
+        }
+    }
+    .get-started-button{
+      button{
+        @media only screen and (max-width: 500px) {
+          font-size:var(--font-size-small);
+          font-family: var(--font-base);
+          background: var(--primary-color);
+          font-weight: var(--font-weight-medium);
+          color:var(--White);
+          padding: 6px;
+          border-radius: 6px;
+          border: none;
+          cursor: pointer;
+          
+        }  
+      }
     }
   .app__links{
     flex: 1;
@@ -22,6 +128,10 @@
     justify-content: center;
     align-items: center;
     list-style: none;
+    
+    @media only screen and (max-width: 813px) {
+      display: none;
+    }
 
     li{
      margin: 0 1rem;
@@ -54,6 +164,10 @@
     }
   } 
    .navButtons{
+    @media only screen and (max-width: 813px) {
+      display: none;
+    }
+
     display: flex;
     align-items: center;
     font-size:var(--font-size-small);
@@ -62,6 +176,7 @@
     cursor: pointer;
     .navButtons-signin{
     font-weight: var(--font-weight-medium);
+   
     }
     button{
     font-size:var(--font-size-small);
@@ -74,6 +189,16 @@
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    @media only screen and (max-width: 813px) {
+    font-size:var(--font-size-small);
+    font-family: var(--font-base);
+    background: var(--primary-color);
+    font-weight: var(--font-weight-medium);
+    color:var(--White);
+    padding: 12px 22px;
+    border-radius: 8px;
+    border: none;
+    }
     }
 
    }

@@ -1,6 +1,9 @@
 import DedicatedTeam from '../assets/DedicatedTeam.svg';
 import digitalService from '../assets/digitalService.png';
 import EllipseBlue from '../assets/EllipseBlue.png';
+import features from '../assets/features.png';
+import FooterForm from '../assets/FooterForm.png';
+import menuIcon from '../assets/menuIcon.svg';
 
 import EllipseDarkBlue from '../assets/EllipseDarkBlue.svg';
 import quicktransfer from '../assets/quicktransfer.png';
@@ -26,7 +29,6 @@ import modern from '../assets/modern.png';
 import extra from '../assets/extra.png';
 import secure from '../assets/secure.png';
 
-import dots from '../assets/VectorDots.svg';
 import vectorLine from '../assets/vectorLine.svg';
 import Line from '../assets/line.png';
 import tick from '../assets/tick.png';
@@ -39,6 +41,9 @@ export default {
     DedicatedTeam ,
     digitalService,
     EllipseBlue,
+    features,
+    FooterForm,
+    menuIcon,
   
     EllipseDarkBlue,
     quicktransfer ,
@@ -64,7 +69,7 @@ export default {
     extra,
     secure,
 
-    dots,
+   
     vectorLine,
     Line,
     tick,

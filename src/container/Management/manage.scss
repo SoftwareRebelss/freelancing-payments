@@ -1,0 +1,59 @@
+.project-manage{
+margin-top:100px;
+
+.choose-finacy{
+    font-size:15px;
+    font-family: var(--font-base-alef);
+    text-align: center;
+    font-weight: 700;
+    text-align: center;
+    color: var(--text-header);
+}
+.h-text{
+    font-family:var(--font-base-Manrope);
+    font-weight: 800;
+    font-size: 15px;
+    color: var(--Black);
+    text-align: center;
+
+    p{
+        font-family:var(--font-base-Manrope);
+        font-weight: 500;
+        color:#757095;
+        margin-top: 10px;
+        font-size: 12px;  
+    }
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+  .play-store{
+  border: none;
+  padding: 8px 16px 8px 16px;
+  text-align: right;
+  background:#3734A9;
+  border-radius: 50px;
+  font-family: var(--font-base);
+  font-size: 12px;
+  font-weight: 100;
+  margin-right: 15px;
+  color: white;
+
+  } 
+  .Google-play{
+    border: none;
+    padding: 8px 16px 8px 16px;
+    text-align: left;
+    background:#FF7F5C;
+    border-radius: 50px;
+    font-family: var(--font-base);
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 15px;
+    color:white;
+  } 
+
+}
+}

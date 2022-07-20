@@ -8,6 +8,7 @@
     font-size: 15px;
     color: var(--Black);
     margin-left: 60px;
+    padding-left: 4.0625rem;
     p{
         font-family:var(--font-base-Manrope);
         font-weight: 500;
@@ -54,7 +55,7 @@
   .save-money{
     border: 1px solid #CFCFCF;
     width: 350px;
-    height: 85px;
+    height: 82px;
     border-bottom-right-radius: 13px;
     margin-top: 10px;
     padding: 30px;
@@ -67,6 +68,59 @@
 }
   }
 
+    }
+
+    .feature-payments-section{
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        margin-right: 100px;
+        .feature-image{
+            width:500px;
+        height: 290px;
+        img{
+          width: 100%;
+        }
+        }
+        .feature-text{
+            width:500px;
+            
+          .choose-finacy{
+            font-size:15px;
+            font-family: var(--font-base-alef);
+            text-align: left;
+            font-weight: 700;
+            
+            color: var(--text-header);
+          }  
+          .h-text-finance{
+            font-family: var(--font-base);
+            font-weight: var(--font-weight-medium);
+            color: var(--Black);
+            font-size:21px;
+            text-align: left;
+            } 
+           p{
+            font-family:var(--font-base-Manrope);
+            font-weight: 500;
+            color:#757095;
+            margin-top: 30px;
+           } 
+
+           button{
+            font-size:var(--font-size-small);
+            font-family: var(--font-base);
+            background: var(--primary-color);
+            font-weight: var(--font-weight-medium);
+            color:var(--White);
+            padding: 14px 24px;
+            border-radius: 8px;
+            border: none;
+            margin-top: 30px;
+            cursor: pointer;
+           }
+            
+        }
     }
 }
 

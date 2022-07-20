@@ -3,27 +3,42 @@ width: 100%;
 
 
 .hero-image{   
-
+    @media only screen and (max-width: 500px) {
+       width: 100%;
+      }
 .freelence-payments-manage{
     display: flex;
     width: 100%;
     padding-top: 120px;
+   
 }
     .upwork{
        width: 300px;
        height: 400px; 
        justify-content: flex-start;
        align-items: center;
+       @media only screen and (max-width: 500px) {
+        display: none;
+      }
     }
     .hero-text-container{
     flex-direction: column;
     margin-left: 70px;
-
+    @media only screen and (max-width: 500px) {
+      flex-direction: column;
+      margin-left:0px;
+    }
     .toptal{
         width: 300px;
         height: 400px; 
         justify-content: center;
         align-items: center;
+        @media only screen and (max-width: 500px) {
+        width: 100px;
+        height: 400px; 
+        justify-content: flex-start;
+        margin-right: 200px;
+        }
      }
      .h-text{
         margin-top: -170px;
@@ -35,6 +50,12 @@ width: 100%;
         font-family: var(--font-base);
         font-weight: var(--font-weight-medium);
         color: var(--Black);
+        @media only screen and (max-width: 450px) {
+        text-align: left;
+        text-justify: left;
+        font-size:18px;
+              
+            }
         
      }
      .p-text{
@@ -46,6 +67,14 @@ width: 100%;
         font-family: var(--font-base-Manrope);
         font-weight: var(--font-weight-medium);
         color:#64607D;
+        @media only screen and (max-width: 450px) {
+          text-align: center;
+          padding-left: 40px ;
+          padding-right: 40px ;
+          text-justify: center;
+          font-size: 14px;
+                
+              }
      }
      .hero-buttons{
       display: flex;
@@ -86,7 +115,9 @@ width: 100%;
         height: 400px; 
         justify-content: flex-end;
         
-        
+        @media only screen and (max-width: 450px) {
+            display: none;
+          }
      } 
 
 }
